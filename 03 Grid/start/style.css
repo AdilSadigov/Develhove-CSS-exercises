@@ -32,6 +32,14 @@ main {
     border-bottom-right-radius: 7px;
 }
 
+.zero {
+    border: 1px solid #a8b7c3;
+    background-color: #edf0f3;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom-left-radius: 7px;
+}
+
 .solution {
     border: 1px solid #a8b7c3;
     background-color: #364146;
@@ -46,16 +54,8 @@ main {
 
 .numbers {
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-area: numbers;
-}
-
-.zero {
-    border: 1px solid #a8b7c3;
-    background-color: #edf0f3;
-    text-align: center;
-    padding-top: 5px;
-    border-bottom-left-radius: 7px;
 }
 
 .sign {
