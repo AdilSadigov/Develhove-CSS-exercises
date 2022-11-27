@@ -117,6 +117,7 @@ a {
     color: #44885e;
     border: 1.5px solid #44885e;
     border-radius: 5px;
+    transition: 0.2s;
 }
 
 .search button:hover {
